@@ -40,8 +40,6 @@ def build_model(input_data):
 
 
 # Logo image
-image = Image.open('logo1.jpg')
-st.image(image, use_column_width=True)
 
 img = Image.open('logo.jpg')
 st.image(img, use_column_width=True)
